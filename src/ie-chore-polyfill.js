@@ -5,7 +5,8 @@
  * - ie8ImperfectObjectDefineProperty: ie8 下简易的模拟 Object.defineProperty，可满足 __webpack_require__.r
  * - ie8DocumentHead: ie8 不支持 document.head
  * - ie9FunctionBind: ie9-、node < 0.6 不支持 Function.prototype.bind。 core-js 有， 但是懒得把 core-js 单独提前引用。。。
- *
+ * 
+ * 详细分析移步 https://juejin.im/post/5e1b119af265da3e1f7586e6
  */
 ;(function(global) {
     'use strict'
